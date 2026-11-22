@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# 模型权重与推理产物
+models/
+weights/
+*.pth
+*.pt
+*.safetensors
+*.onnx
+*.ckpt
+*.bin
+
+# 视频 / 音频 / 图片大文件
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.flv
+*.wav
+*.mp3
+*.m4a
+*.aac
+
+# 切片输出与切点表（由脚本运行时生成）
+*_shots/
+*_纯镜头/
+shots.csv
+shots.json
+out.jsonl
+
+# 临时文件与日志
+tmp/
+temp/
+*.log
+*.tmp
+*.bak
+*.part
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
